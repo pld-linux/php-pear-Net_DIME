@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides an implementation of DIME as defined at
 http://search.ietf.org/internet-drafts/draft-nielsen-dime-02.txt
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Dostarcza implementacjê DIME, jaka zosta³a zdefiniowana w dokumencie:
