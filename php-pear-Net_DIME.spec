@@ -2,8 +2,8 @@
 %define         _class          Net
 %define         _subclass       DIME
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - implements DIME encoding
-Summary(pl):	%{_class}_%{_subclass} - implementacja kodowania DIME
+Summary:	%{_pearname} - implements DIME encoding
+Summary(pl):	%{_pearname} - implementacja kodowania DIME
 Name:		php-pear-%{_pearname}
 Version:	0.2
 Release:	2
