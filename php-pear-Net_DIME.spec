@@ -10,6 +10,7 @@ Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+Patch0:		%{name}-class_name.patch
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov
 Requires:	php-pear
@@ -26,6 +27,7 @@ http://search.ietf.org/internet-drafts/draft-nielsen-dime-02.txt
 
 %prep
 %setup -q -c
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
