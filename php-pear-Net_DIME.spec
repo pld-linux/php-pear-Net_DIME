@@ -14,6 +14,7 @@ Patch0:		%{name}-class_name.patch
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov
 Requires:	php-pear
+Provides:	pear(%{_class}_%{_subclass})
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
