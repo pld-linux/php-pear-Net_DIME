@@ -1,7 +1,9 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          Net
 %define         _subclass       DIME
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - implements DIME encoding
 Summary(pl):	%{_pearname} - implementacja kodowania DIME
 Name:		php-pear-%{_pearname}
@@ -9,8 +11,8 @@ Version:	0.3
 Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	5e740eff36c049f4dcb348c6fb24da11
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	5e740eff36c049f4dcb348c6fb24da11
 URL:		http://pear.php.net/package/Net_DIME/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -21,9 +23,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides an implementation of DIME as defined at
 http://search.ietf.org/internet-drafts/draft-nielsen-dime-02.txt
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Dostarcza implementacjê DIME, jaka zosta³a zdefiniowana w dokumencie:
 http://search.ietf.org/internet-drafts/draft-nielsen-dime-02.txt
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
