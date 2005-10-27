@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - implementacja kodowania DIME
 Name:		php-pear-%{_pearname}
 Version:	0.3
 Release:	4
+Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
