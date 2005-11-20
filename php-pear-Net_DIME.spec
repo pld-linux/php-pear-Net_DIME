@@ -3,12 +3,11 @@
 %define		_subclass	DIME
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-
 Summary:	%{_pearname} - implements DIME encoding
 Summary(pl):	%{_pearname} - implementacja kodowania DIME
 Name:		php-pear-%{_pearname}
 Version:	0.3
-Release:	4
+Release:	5
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
