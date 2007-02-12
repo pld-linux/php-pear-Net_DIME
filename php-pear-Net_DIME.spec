@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - implements DIME encoding
-Summary(pl):	%{_pearname} - implementacja kodowania DIME
+Summary(pl.UTF-8):   %{_pearname} - implementacja kodowania DIME
 Name:		php-pear-%{_pearname}
 Version:	0.3
 Release:	5
@@ -27,15 +27,15 @@ http://search.ietf.org/internet-drafts/draft-nielsen-dime-02.txt
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Dostarcza implementacjê DIME, jaka zosta³a zdefiniowana w dokumencie:
+%description -l pl.UTF-8
+Dostarcza implementacjÄ™ DIME, jaka zostaÅ‚a zdefiniowana w dokumencie:
 http://search.ietf.org/internet-drafts/draft-nielsen-dime-02.txt
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -44,7 +44,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
