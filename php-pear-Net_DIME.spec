@@ -7,7 +7,7 @@ Summary:	%{_pearname} - implements DIME encoding
 Summary(pl.UTF-8):	%{_pearname} - implementacja kodowania DIME
 Name:		php-pear-%{_pearname}
 Version:	0.3
-Release:	5
+Release:	6
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
